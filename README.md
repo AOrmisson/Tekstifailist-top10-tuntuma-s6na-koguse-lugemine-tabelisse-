@@ -1,0 +1,1 @@
+# ekstifailist-top10-tuntuma-s6na-koguse-lugemine-tabelisse-
