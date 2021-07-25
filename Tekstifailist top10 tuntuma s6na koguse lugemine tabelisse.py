@@ -35,7 +35,7 @@ print("Nimi: Kogus")
 
 for i in high:
     print(i[0]," :",i[1]," ")
-#Otsin välja top10 enim esinevat sõna ja prindin need välja tabelina
+#Otsisin välja top10 enim esinevat sõna ja prindin need välja tabelina
 
 
 
