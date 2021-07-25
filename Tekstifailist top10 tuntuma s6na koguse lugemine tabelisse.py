@@ -7,7 +7,7 @@ with open(filename, "r") as file:
     words = text.split()
     table = str.maketrans("", "", string.punctuation)
     stripped = [char.translate(table) for char in words]
-    #print(stripped)
+#Eemaldasin kirjavahemärgid tekstist
 
 word_dict = dict()
 
@@ -16,10 +16,12 @@ for word in stripped:
         word_dict[word] = word_dict[word] + 1
     else:
         word_dict[word] = 1
+#Loendan kõik sõnad hulga poolest ja lisan nad dictionarisse
 
 for word in tuple(word_dict.keys()):
     if word.isdigit():
         del word_dict[word]
+#Ei võimalda lisada nubmreid dictionarisse
 
 #print(sorted(zip(word_dict.values(), word_dict.keys())))
 
@@ -33,7 +35,7 @@ print("Nimi: Kogus")
 
 for i in high:
     print(i[0]," :",i[1]," ")
-
+#Otsin välja top10 enim esinevat sõna ja prindin need välja tabelina
 
 
 
