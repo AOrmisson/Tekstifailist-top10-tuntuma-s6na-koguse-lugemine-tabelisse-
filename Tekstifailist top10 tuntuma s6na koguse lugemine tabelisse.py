@@ -30,7 +30,7 @@ from collections import Counter
 C = Counter(word_dict)
 high = C.most_common(10)
 
-print("Top10 nime")
+print("Top10 sõna")
 print("Nimi: Kogus")
 
 for i in high:
